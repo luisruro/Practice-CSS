@@ -1,0 +1,69 @@
+body {
+    height: 3000px;
+    padding-top: 60px;
+    padding-left: 80px;
+}
+
+.title {
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 50px;
+    z-index: 100;
+}
+
+/*El side bar esta en un contenedor y el X esta en un contenedor dentro del sidebar, 
+entonces X lo puedo mover dentro del contenedor de sidebar, ya que sidebar
+tiene position:fixed y la position:absolute de X permite moverse dentro
+de sidebar con las propiedades top, right, left and bottom*/
+
+.sidebar {
+    background-color: green;
+    color: white;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    top: 50px;
+    width: 72px;
+}
+
+.x {
+    position: absolute;
+    background-color: red;
+    color: white;
+    top: 0px;
+    right: 0px;
+}
+
+.absolute{
+    position: absolute;
+    background-color: red;
+    color: white;
+    top: 60px;
+    right: 10px;
+}
+
+.section1{
+    background-color: lightblue;
+    height: 200px;
+    width: 200px;
+    position: static;
+}
+
+.section2{
+    background-color: lightpink;
+    height: 200px;
+    width: 200px;
+    position: relative;
+}
+
+.article{
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}

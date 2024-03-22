@@ -1,0 +1,46 @@
+body{
+    height: 1000px;
+}
+
+.section1{
+    display: grid;
+    grid-template-columns: 100px 100px;
+}
+
+/*el grid-template-columns se establece las columnas del grid, en la section2
+tenemos 4 articles, entonces el cuarto article quedara debajo ya que solo 
+hay tres columnas*/
+.section2{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 100px 100px 200px;
+}
+
+/*fr toma el restante de la pagina*/
+.section3{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 100px 1fr;
+}
+
+.section4{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 100px 1fr 1fr;
+}
+
+.section5{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 40px;
+}
+
+.section6{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 10px;
+}
