@@ -1,0 +1,37 @@
+h1::first-letter{
+    font-size: 40px;
+    font-style: italic;
+}
+
+p::first-line{
+    background-color: yellow;
+}
+
+/*Cuando se selecciona algo con el mouse se va haran cambios*/
+p::selection{
+    color: white;
+    background-color: black;
+}
+
+#fruit li::before{
+    content: "✅";
+}
+#apple::after{
+    content: "🍎";
+}
+
+#orange::after{
+    content: "🍊";
+}
+
+#banana::after{
+    content: "🥭";
+}
+
+/*Modify the bullet points of the list */
+#fruit li::marker{
+    content: "👉";
+    color: lightblue;
+    font-size: 30px;
+}
+
