@@ -15,6 +15,8 @@ body {
     z-index: 100;
 }
 
+/*Pisition sticky keeps the space for the container*/
+
 /*El side bar esta en un contenedor y el X esta en un contenedor dentro del sidebar, 
 entonces X lo puedo mover dentro del contenedor de sidebar, ya que sidebar
 tiene position:fixed y la position:absolute de X permite moverse dentro

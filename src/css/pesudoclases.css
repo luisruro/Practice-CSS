@@ -1,0 +1,54 @@
+button:hover{
+    font-size: 16px;
+    background-color: brown;
+}
+
+/*when you keep the click pressed*/
+button:active{
+    font-size: 8px;
+    background-color: lightcoral;
+}
+
+a:link{
+    color: lightblue;
+}
+
+a:hover{
+    color: lightcoral;
+    font-size: 14px;
+}
+
+a:active{
+    color: lightpink;
+    font-size: 20px;
+}
+
+/*when the link has been opened*/
+a:visited{
+    color: gray;
+}
+
+li:hover{
+   background-color: yellow; 
+}
+
+li:not(:hover){
+    background-color: gray;
+}
+
+/*Selecciona la posición en la lista
+y se pintara de ese color, se pueden
+usar even, odd, 1, 2, 2n, 3n+2 etc*/
+li:nth-child(3n+2){
+    background-color: yellow;
+}
+
+#greeting p{
+    background-color: lightblue;
+    padding: 10px;
+    display: none;
+}
+
+#greeting:hover p{
+    display: block;
+}
