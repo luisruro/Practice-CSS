@@ -46,3 +46,9 @@ max-width es para indicar el máximo que coge la pantalla*/
         width: 100%;
     } 
 }
+
+/* @media (min-width: 1200.1px){
+    aside, section, article{
+        width: 100%;
+    }
+} */
