@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+}
+
+.box{
+    width: 250px;
+    height: 250px;
+    border: 5px solid;
+    font-size: 208px;
+    text-align: center;
+    transform: translateX(100px) rotateZ(45deg) scale(0.5);
+}
+
+#box1{
+    background-color: hsl(120, 100%, 70%);
+
+    /*Transform X o Y se mueve como en el plano cartesiano
+    si es translateX(100px) se mueve 100px horizontalmente y si es 
+    translate(Y) se mueve verticalmente, se pueden combinar los dos
+    utilizando translate(100px, 100px)*/
+    /* transform: translate(100px, 100px);
+    transform: rotate(45deg);
+    transform: skew(15deg, 15deg); */
+}
+
+#box2{
+    background-color: hsl(0, 100%, 70%);
+}
+
+#box3{
+    background-color: hsl(217, 100%, 70%);
+}
